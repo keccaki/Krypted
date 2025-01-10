@@ -1,0 +1,71 @@
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start !important;
+  height: 100vh;
+}
+
+.header-logo {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 150px;
+}
+
+.wallet-connect-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.submit-button {
+  min-height: 80px;
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+.buttons {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.console-area {
+  width: calc(100% - 20px);
+  height: 100%;
+  margin: 10px;
+  border-radius: 2px;
+  padding: 10px;
+}
